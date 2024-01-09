@@ -27,6 +27,14 @@ export default function RootLayout({
     >
       <head>
         <meta name="darkreader-lock" />
+        <meta property="og:title" content="Shahrier Nafis" />
+        <meta property="og:description" content="Personal Portfolio" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://shahrier-nafis-portfolio.vercel.app/"
+        />
+        <meta property="og:image" content="/image.png" />
       </head>
 
       <body

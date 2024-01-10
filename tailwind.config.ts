@@ -20,6 +20,7 @@ const config = {
     extend: {
       fontFamily: {
         StarJHol: ["var(--font-StarJHol)"],
+        Terminus: ["var(--font-Terminus)"],
       },
       colors: {
         border: "hsl(var(--border))",

@@ -9,7 +9,11 @@ const StarJHol = localFont({
 
   variable: "--font-StarJHol",
 });
+const Terminus = localFont({
+  src: "./Terminus.ttf",
 
+  variable: "--font-Terminus",
+});
 export const metadata: Metadata = {
   title: "Shahrier Nafis",
   description: "Personal Portfolio",
@@ -38,7 +42,7 @@ export default function RootLayout({
       </head>
 
       <body
-        className={`w-vw overflow-x-hidden${inter.className} ${StarJHol.variable}`}
+        className={`w-vw overflow-x-hidden${inter.className} ${StarJHol.variable} ${Terminus.variable} `}
       >
         {children}
       </body>
